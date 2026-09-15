@@ -1,0 +1,7 @@
+DroneSim ready: 127.0.0.1:18550 -> 127.0.0.1:18551
+ACK ARM cmd_seq=1
+ACK SET_MODE cmd_seq=2
+ACK GOTO cmd_seq=3
+ACK DISARM cmd_seq=4
+DroneSim stopped: rx=4 invalid=0 foreign=0
+

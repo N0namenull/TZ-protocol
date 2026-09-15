@@ -1,0 +1,24 @@
+GCS ready: 127.0.0.1:18551 -> 127.0.0.1:18550
+Commands: status | arm | disarm | mode <0|1|2> | goto <lat> <lon> <alt> | help | quit
+Waiting for telemetry...
+STATS rx=0 unique=0 lost=0 loss=0.00% invalid=0 foreign=0 duplicates=0 late=0 stale=0 heartbeat_age=never
+SEND ARM cmd_seq=1
+ACK ARM cmd_seq=1
+SEND SET_MODE cmd_seq=2
+ACK SET_MODE cmd_seq=2
+SEND GOTO cmd_seq=3
+ACK GOTO cmd_seq=3
+TELEMETRY seq=14 lat=55.7500250 lon=37.6100000 alt=0.83 yaw=0.00 battery=99.93 armed=1 mode=GUIDED
+STATS rx=13 unique=13 lost=0 loss=0.00% invalid=0 foreign=0 duplicates=0 late=0 stale=0 heartbeat_age=0.02s system_status=2
+TELEMETRY seq=24 lat=55.7501146 lon=37.6100000 alt=3.82 yaw=0.00 battery=99.83 armed=1 mode=GUIDED
+STATS rx=23 unique=23 lost=0 loss=0.00% invalid=0 foreign=0 duplicates=0 late=0 stale=0 heartbeat_age=0.02s system_status=2
+TELEMETRY seq=34 lat=55.7502027 lon=37.6100000 alt=6.76 yaw=0.00 battery=99.73 armed=1 mode=GUIDED
+STATS rx=32 unique=32 lost=0 loss=0.00% invalid=0 foreign=0 duplicates=0 late=0 stale=0 heartbeat_age=1.01s system_status=2
+SEND DISARM cmd_seq=4
+ACK DISARM cmd_seq=4
+TELEMETRY seq=34 lat=55.7502027 lon=37.6100000 alt=6.76 yaw=0.00 battery=99.73 armed=1 mode=GUIDED
+STATS rx=34 unique=34 lost=0 loss=0.00% invalid=0 foreign=0 duplicates=0 late=0 stale=0 heartbeat_age=0.02s system_status=2
+TELEMETRY seq=37 lat=55.7502096 lon=37.6100000 alt=6.99 yaw=0.00 battery=99.72 armed=0 mode=GUIDED
+STATS rx=35 unique=35 lost=0 loss=0.00% invalid=0 foreign=0 duplicates=0 late=0 stale=0 heartbeat_age=0.12s system_status=2
+GCS stopped. Log: flight.csv
+
